@@ -7,7 +7,7 @@ int main() {
     for (int b=1;PI<=3.141585;b=b+4){
         PI=PI+(c/b);
         printf("%.5f\n",PI);
-        printf("%d\n",b);
+        printf("%d\n",x);
         if(PI>=3.141585&PI<=3.141594){
             printf("%.5f\n",PI);
             printf("%d\n",x);
@@ -16,7 +16,7 @@ int main() {
         x=x+2;
         PI=PI-(c/(b+2));
         printf("%.5f\n",PI);
-        printf("%d\n",b-2);
+        printf("%d\n",x);
         if(PI>=3.141585&PI<=3.141594){
             printf("%.5f\n",PI);
             printf("%d\n",x);
@@ -25,6 +25,6 @@ int main() {
         x=x+2;
     }
     printf("%.5f\n",PI);
-    printf("%d",x-4);
+    printf("%d",x);
     return 0;
 }
